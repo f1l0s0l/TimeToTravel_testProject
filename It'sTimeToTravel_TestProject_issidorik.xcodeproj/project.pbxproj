@@ -7,23 +7,63 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A488A2AF2A14F887008E8FAF /* DateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A488A2AE2A14F887008E8FAF /* DateManager.swift */; };
+		A488A2B12A152538008E8FAF /* Старая ячейка.swift in Sources */ = {isa = PBXBuildFile; fileRef = A488A2B02A152538008E8FAF /* Старая ячейка.swift */; };
+		A488A2B52A16334D008E8FAF /* TicketCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A488A2B42A16334D008E8FAF /* TicketCellViewModel.swift */; };
+		A488A2B72A164636008E8FAF /* TicketDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A488A2B62A164636008E8FAF /* TicketDetailsViewModel.swift */; };
 		A4DEEB0C2A137D0B002D43EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DEEB0B2A137D0B002D43EC /* AppDelegate.swift */; };
 		A4DEEB0E2A137D0B002D43EC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DEEB0D2A137D0B002D43EC /* SceneDelegate.swift */; };
-		A4DEEB102A137D0B002D43EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DEEB0F2A137D0B002D43EC /* ViewController.swift */; };
-		A4DEEB132A137D0B002D43EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4DEEB112A137D0B002D43EC /* Main.storyboard */; };
+		A4DEEB102A137D0B002D43EC /* TicketsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DEEB0F2A137D0B002D43EC /* TicketsViewController.swift */; };
 		A4DEEB152A137D0F002D43EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4DEEB142A137D0F002D43EC /* Assets.xcassets */; };
 		A4DEEB182A137D0F002D43EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4DEEB162A137D0F002D43EC /* LaunchScreen.storyboard */; };
+		A4DEEB242A137FD6002D43EC /* TicketCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DEEB232A137FD6002D43EC /* TicketCell.swift */; };
+		A4DEEB262A13ABAD002D43EC /* TicketsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DEEB252A13ABAD002D43EC /* TicketsViewModel.swift */; };
+		A4DEEB292A13ACE0002D43EC /* MainNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DEEB282A13ACE0002D43EC /* MainNetworkService.swift */; };
+		A4DEEB2B2A13B348002D43EC /* NetworkRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DEEB2A2A13B348002D43EC /* NetworkRouter.swift */; };
+		A4DEEB2D2A13B44D002D43EC /* NetworkRouterError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DEEB2C2A13B44D002D43EC /* NetworkRouterError.swift */; };
+		A4DEEB2F2A13D9F7002D43EC /* Mapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DEEB2E2A13D9F7002D43EC /* Mapper.swift */; };
+		A4DEEB312A13DAE9002D43EC /* MapperError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DEEB302A13DAE9002D43EC /* MapperError.swift */; };
+		A4DEEB342A13E12F002D43EC /* FlightsCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DEEB332A13E12F002D43EC /* FlightsCodable.swift */; };
+		A4DEEB362A13EDCA002D43EC /* MainNetworkServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DEEB352A13EDCA002D43EC /* MainNetworkServiceError.swift */; };
+		A4DEEB392A13F1C6002D43EC /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DEEB382A13F1C6002D43EC /* Ticket.swift */; };
+		A4DEEB3C2A13F651002D43EC /* CreateFlightTicketsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DEEB3B2A13F651002D43EC /* CreateFlightTicketsService.swift */; };
+		A4DEEB3F2A13FAD5002D43EC /* AlertNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DEEB3E2A13FAD5002D43EC /* AlertNotification.swift */; };
+		A4DEEB422A14083E002D43EC /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DEEB412A14083E002D43EC /* Protocol.swift */; };
+		A4DEEB442A140D42002D43EC /* MainCooridnator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DEEB432A140D42002D43EC /* MainCooridnator.swift */; };
+		A4DEEB462A140E4E002D43EC /* TicketsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DEEB452A140E4E002D43EC /* TicketsCoordinator.swift */; };
+		A4DEEB492A140F11002D43EC /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DEEB482A140F10002D43EC /* RootViewController.swift */; };
+		A4DEEB4D2A1412B4002D43EC /* TicketDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DEEB4C2A1412B4002D43EC /* TicketDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A488A2AE2A14F887008E8FAF /* DateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateManager.swift; sourceTree = "<group>"; };
+		A488A2B02A152538008E8FAF /* Старая ячейка.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Старая ячейка.swift"; sourceTree = "<group>"; };
+		A488A2B42A16334D008E8FAF /* TicketCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketCellViewModel.swift; sourceTree = "<group>"; };
+		A488A2B62A164636008E8FAF /* TicketDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketDetailsViewModel.swift; sourceTree = "<group>"; };
 		A4DEEB082A137D0B002D43EC /* It'sTimeToTravel_TestProject_issidorik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "It'sTimeToTravel_TestProject_issidorik.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4DEEB0B2A137D0B002D43EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A4DEEB0D2A137D0B002D43EC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A4DEEB0F2A137D0B002D43EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A4DEEB122A137D0B002D43EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A4DEEB0F2A137D0B002D43EC /* TicketsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsViewController.swift; sourceTree = "<group>"; };
 		A4DEEB142A137D0F002D43EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4DEEB172A137D0F002D43EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4DEEB192A137D0F002D43EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4DEEB232A137FD6002D43EC /* TicketCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketCell.swift; sourceTree = "<group>"; };
+		A4DEEB252A13ABAD002D43EC /* TicketsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsViewModel.swift; sourceTree = "<group>"; };
+		A4DEEB282A13ACE0002D43EC /* MainNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNetworkService.swift; sourceTree = "<group>"; };
+		A4DEEB2A2A13B348002D43EC /* NetworkRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRouter.swift; sourceTree = "<group>"; };
+		A4DEEB2C2A13B44D002D43EC /* NetworkRouterError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRouterError.swift; sourceTree = "<group>"; };
+		A4DEEB2E2A13D9F7002D43EC /* Mapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mapper.swift; sourceTree = "<group>"; };
+		A4DEEB302A13DAE9002D43EC /* MapperError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapperError.swift; sourceTree = "<group>"; };
+		A4DEEB332A13E12F002D43EC /* FlightsCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightsCodable.swift; sourceTree = "<group>"; };
+		A4DEEB352A13EDCA002D43EC /* MainNetworkServiceError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNetworkServiceError.swift; sourceTree = "<group>"; };
+		A4DEEB382A13F1C6002D43EC /* Ticket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticket.swift; sourceTree = "<group>"; };
+		A4DEEB3B2A13F651002D43EC /* CreateFlightTicketsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateFlightTicketsService.swift; sourceTree = "<group>"; };
+		A4DEEB3E2A13FAD5002D43EC /* AlertNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertNotification.swift; sourceTree = "<group>"; };
+		A4DEEB412A14083E002D43EC /* Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
+		A4DEEB432A140D42002D43EC /* MainCooridnator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCooridnator.swift; sourceTree = "<group>"; };
+		A4DEEB452A140E4E002D43EC /* TicketsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsCoordinator.swift; sourceTree = "<group>"; };
+		A4DEEB482A140F10002D43EC /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		A4DEEB4C2A1412B4002D43EC /* TicketDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +77,83 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A488A2B82A169820008E8FAF /* CoreLayer */ = {
+			isa = PBXGroup;
+			children = (
+				A4DEEB1F2A137E85002D43EC /* Application */,
+				A488A2BB2A1698F0008E8FAF /* Network */,
+				A4DEEB202A137E93002D43EC /* Resources */,
+			);
+			path = CoreLayer;
+			sourceTree = "<group>";
+		};
+		A488A2B92A16982C008E8FAF /* BusinessLayer */ = {
+			isa = PBXGroup;
+			children = (
+				A488A2BE2A16997C008E8FAF /* Service */,
+				A488A2BC2A169926008E8FAF /* Network */,
+				A488A2BD2A169974008E8FAF /* Helper */,
+			);
+			path = BusinessLayer;
+			sourceTree = "<group>";
+		};
+		A488A2BA2A169868008E8FAF /* PresentationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				A4DEEB402A1407F6002D43EC /* Coordinator */,
+				A4DEEB212A137EBE002D43EC /* TicketsFlow */,
+				A4DEEB472A140EEF002D43EC /* CustomUIItems */,
+				A4DEEB372A13F16B002D43EC /* Models */,
+				A488A2BF2A1699B8008E8FAF /* Notification */,
+			);
+			path = PresentationLayer;
+			sourceTree = "<group>";
+		};
+		A488A2BB2A1698F0008E8FAF /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				A4DEEB2A2A13B348002D43EC /* NetworkRouter.swift */,
+				A4DEEB2E2A13D9F7002D43EC /* Mapper.swift */,
+				A4DEEB2C2A13B44D002D43EC /* NetworkRouterError.swift */,
+				A4DEEB302A13DAE9002D43EC /* MapperError.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		A488A2BC2A169926008E8FAF /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				A4DEEB332A13E12F002D43EC /* FlightsCodable.swift */,
+				A4DEEB282A13ACE0002D43EC /* MainNetworkService.swift */,
+				A4DEEB352A13EDCA002D43EC /* MainNetworkServiceError.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		A488A2BD2A169974008E8FAF /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				A488A2AE2A14F887008E8FAF /* DateManager.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		A488A2BE2A16997C008E8FAF /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				A4DEEB3B2A13F651002D43EC /* CreateFlightTicketsService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		A488A2BF2A1699B8008E8FAF /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				A4DEEB3E2A13FAD5002D43EC /* AlertNotification.swift */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
 		A4DEEAFF2A137D0B002D43EC = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +173,94 @@
 		A4DEEB0A2A137D0B002D43EC /* It'sTimeToTravel_TestProject_issidorik */ = {
 			isa = PBXGroup;
 			children = (
+				A488A2BA2A169868008E8FAF /* PresentationLayer */,
+				A488A2B92A16982C008E8FAF /* BusinessLayer */,
+				A488A2B82A169820008E8FAF /* CoreLayer */,
+			);
+			path = "It'sTimeToTravel_TestProject_issidorik";
+			sourceTree = "<group>";
+		};
+		A4DEEB1F2A137E85002D43EC /* Application */ = {
+			isa = PBXGroup;
+			children = (
 				A4DEEB0B2A137D0B002D43EC /* AppDelegate.swift */,
 				A4DEEB0D2A137D0B002D43EC /* SceneDelegate.swift */,
-				A4DEEB0F2A137D0B002D43EC /* ViewController.swift */,
-				A4DEEB112A137D0B002D43EC /* Main.storyboard */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		A4DEEB202A137E93002D43EC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				A4DEEB142A137D0F002D43EC /* Assets.xcassets */,
 				A4DEEB162A137D0F002D43EC /* LaunchScreen.storyboard */,
 				A4DEEB192A137D0F002D43EC /* Info.plist */,
+				A488A2B02A152538008E8FAF /* Старая ячейка.swift */,
 			);
-			path = "It'sTimeToTravel_TestProject_issidorik";
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A4DEEB212A137EBE002D43EC /* TicketsFlow */ = {
+			isa = PBXGroup;
+			children = (
+				A4DEEB4A2A14125B002D43EC /* Tickets */,
+				A4DEEB4B2A14126D002D43EC /* TicketDetails */,
+			);
+			path = TicketsFlow;
+			sourceTree = "<group>";
+		};
+		A4DEEB222A137F6A002D43EC /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				A488A2B42A16334D008E8FAF /* TicketCellViewModel.swift */,
+				A4DEEB232A137FD6002D43EC /* TicketCell.swift */,
+			);
+			path = CustomCell;
+			sourceTree = "<group>";
+		};
+		A4DEEB372A13F16B002D43EC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A4DEEB382A13F1C6002D43EC /* Ticket.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A4DEEB402A1407F6002D43EC /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				A4DEEB412A14083E002D43EC /* Protocol.swift */,
+				A4DEEB432A140D42002D43EC /* MainCooridnator.swift */,
+				A4DEEB452A140E4E002D43EC /* TicketsCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		A4DEEB472A140EEF002D43EC /* CustomUIItems */ = {
+			isa = PBXGroup;
+			children = (
+				A4DEEB482A140F10002D43EC /* RootViewController.swift */,
+			);
+			path = CustomUIItems;
+			sourceTree = "<group>";
+		};
+		A4DEEB4A2A14125B002D43EC /* Tickets */ = {
+			isa = PBXGroup;
+			children = (
+				A4DEEB252A13ABAD002D43EC /* TicketsViewModel.swift */,
+				A4DEEB0F2A137D0B002D43EC /* TicketsViewController.swift */,
+				A4DEEB222A137F6A002D43EC /* CustomCell */,
+			);
+			path = Tickets;
+			sourceTree = "<group>";
+		};
+		A4DEEB4B2A14126D002D43EC /* TicketDetails */ = {
+			isa = PBXGroup;
+			children = (
+				A488A2B62A164636008E8FAF /* TicketDetailsViewModel.swift */,
+				A4DEEB4C2A1412B4002D43EC /* TicketDetailsViewController.swift */,
+			);
+			path = TicketDetails;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +323,6 @@
 			files = (
 				A4DEEB182A137D0F002D43EC /* LaunchScreen.storyboard in Resources */,
 				A4DEEB152A137D0F002D43EC /* Assets.xcassets in Resources */,
-				A4DEEB132A137D0B002D43EC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +333,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4DEEB102A137D0B002D43EC /* ViewController.swift in Sources */,
+				A4DEEB442A140D42002D43EC /* MainCooridnator.swift in Sources */,
+				A4DEEB392A13F1C6002D43EC /* Ticket.swift in Sources */,
+				A4DEEB492A140F11002D43EC /* RootViewController.swift in Sources */,
+				A4DEEB102A137D0B002D43EC /* TicketsViewController.swift in Sources */,
+				A4DEEB312A13DAE9002D43EC /* MapperError.swift in Sources */,
+				A4DEEB362A13EDCA002D43EC /* MainNetworkServiceError.swift in Sources */,
+				A4DEEB2D2A13B44D002D43EC /* NetworkRouterError.swift in Sources */,
+				A488A2AF2A14F887008E8FAF /* DateManager.swift in Sources */,
+				A4DEEB3F2A13FAD5002D43EC /* AlertNotification.swift in Sources */,
 				A4DEEB0C2A137D0B002D43EC /* AppDelegate.swift in Sources */,
+				A4DEEB342A13E12F002D43EC /* FlightsCodable.swift in Sources */,
 				A4DEEB0E2A137D0B002D43EC /* SceneDelegate.swift in Sources */,
+				A488A2B12A152538008E8FAF /* Старая ячейка.swift in Sources */,
+				A4DEEB2F2A13D9F7002D43EC /* Mapper.swift in Sources */,
+				A4DEEB4D2A1412B4002D43EC /* TicketDetailsViewController.swift in Sources */,
+				A4DEEB262A13ABAD002D43EC /* TicketsViewModel.swift in Sources */,
+				A4DEEB422A14083E002D43EC /* Protocol.swift in Sources */,
+				A4DEEB3C2A13F651002D43EC /* CreateFlightTicketsService.swift in Sources */,
+				A488A2B52A16334D008E8FAF /* TicketCellViewModel.swift in Sources */,
+				A4DEEB462A140E4E002D43EC /* TicketsCoordinator.swift in Sources */,
+				A4DEEB242A137FD6002D43EC /* TicketCell.swift in Sources */,
+				A488A2B72A164636008E8FAF /* TicketDetailsViewModel.swift in Sources */,
+				A4DEEB292A13ACE0002D43EC /* MainNetworkService.swift in Sources */,
+				A4DEEB2B2A13B348002D43EC /* NetworkRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A4DEEB112A137D0B002D43EC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A4DEEB122A137D0B002D43EC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A4DEEB162A137D0F002D43EC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -288,10 +496,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "It'sTimeToTravel_TestProject_issidorik/Info.plist";
+				INFOPLIST_FILE = "It'sTimeToTravel_TestProject_issidorik/CoreLayer/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -315,10 +522,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "It'sTimeToTravel_TestProject_issidorik/Info.plist";
+				INFOPLIST_FILE = "It'sTimeToTravel_TestProject_issidorik/CoreLayer/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
